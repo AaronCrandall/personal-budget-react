@@ -14,13 +14,13 @@ function App() {
     <BrowserRouter>
        <Menu/>
        <Hero/>
-       <div className="mainContainer">
+       {/*<div className="mainContainer">*/}
         <Routes>
           <Route path="/about" element={<AboutPage/>}/>
           <Route path="/Login" element={<LoginPage/>}/>
-          <Route path="" element={<HomePage/>}/>
+          <Route path="/" element={<HomePage/>}/>
         </Routes>
-       </div>
+       {/*</div> */}
        <Footer/>  
     </BrowserRouter>
   );
